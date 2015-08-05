@@ -10,5 +10,18 @@ package com.leapfrog.onlineshopping.entity;
  * @author Anuz
  */
 public class Product {
+    private int productId;
+    private String productName;
+    private int CategoryId;
+    private int productDescription;
+    private int productCostPrice;
+    private int productSellPrice;
+    private String productManufacturer;
+    private int productPhotoId;
+    private int productViewCount;
+    private int coverPhotoId;
+    private int productQuantity;
+    
+            
     
 }

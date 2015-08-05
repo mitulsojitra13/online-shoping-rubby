@@ -10,5 +10,33 @@ package com.leapfrog.onlineshopping.entity;
  * @author Anuz
  */
 public class OccasionalProduct {
+
+    private int occasionId;
+    private int productId;
+    
+    public OccasionalProduct() {
+    }
+
+    public int getOccasionId() {
+        return occasionId;
+    }
+
+    public void setOccasionId(int occasionId) {
+        this.occasionId = occasionId;
+    }
+
+    public int getProductId() {
+        return productId;
+    }
+
+    public void setProductId(int productId) {
+        this.productId = productId;
+    }
+
+    @Override
+    public String toString() {
+        return "OccasionalProduct{" + "occasionId=" + occasionId + ", productId=" + productId + '}';
+    }
+    
     
 }
