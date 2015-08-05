@@ -10,5 +10,5 @@ package com.leapfrog.onlineshopping.entity;
  * @author Anuz
  */
 public class Subscriber {
-    
+    private int subscriberId;
 }
